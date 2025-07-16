@@ -10,4 +10,23 @@ A simple boilerplate project combining **React** (frontend), **Node.js/Express**
 - 📦 Easy to extend and customize
 
 ## 📁 Project Structure
-
+├── client/ # React frontend (Vite)
+│ ├── public/ # Public assets
+│ ├── src/ # React source code
+│ │ ├── assets/ # Static assets like images or icons
+│ │ ├── App.jsx # Main App component
+│ │ ├── index.css # Global styles
+│ │ ├── main.jsx # React entry point
+│ │ └── ... # Other components and styles
+│ ├── index.html # HTML template
+│ ├── vite.config.js # Vite configuration
+│ ├── eslint.config.js # ESLint configuration
+│ └── package.json # Frontend dependencies and scripts
+│
+├── server/ # Node.js backend (Express)
+│ ├── index.js # Express server entry point
+│ ├── package.json # Backend dependencies and scripts
+│
+├── playwright/ # Playwright test setup
+│
+└── README.md # Project documentation
